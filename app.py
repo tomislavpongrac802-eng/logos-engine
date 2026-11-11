@@ -3,7 +3,7 @@ from google import genai
 
 import logos_core as core
 
-MODEL = "gemini-2.5-flash-lite"  # check the current model name in Google AI Studio
+MODEL = gemini-3.5-flash-lite  # check the current model name in Google AI Studio
 
 st.set_page_config(page_title="LOGOS Q-OPE v4.0", layout="wide")
 st.title("LOGOS Q-OPE v4.0")
