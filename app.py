@@ -93,10 +93,7 @@ if st.button("Run analysis", type="primary"):
                 check = core.check_output(final, facts, description)
     except Exception as e:
         print("AI call failed:", repr(e))  # visible in Manage app -> logs
-        except Exception as e:
-        print("AI call failed:", repr(e))  # visible in Manage app -> logs
         st.error("The AI call failed. Details: " + str(e)[:400])
-        st.stop() 
         st.stop()
 
     if check["violations"]:
